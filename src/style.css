@@ -28,27 +28,29 @@
 }
 
 .ril__inner {
+  height: calc(100% - 75px);
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 25px;
 }
 
 .ril__image,
 .ril__imagePrev,
 .ril__imageNext {
   position: absolute;
-  top: 0;
+  top: 50%;
   right: 0;
   bottom: 0;
   left: 0;
-  margin: auto;
-  max-width: none;
+  margin: 0 auto;
   -ms-content-zooming: none;
   -ms-user-select: none;
   -ms-touch-select: none;
   touch-action: none;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .ril__imageDiscourager {
